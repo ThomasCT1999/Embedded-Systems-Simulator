@@ -1,0 +1,10 @@
+
+Files need to be connected before being run:
+
+gcc -c engine.c -o engine.o
+g++ -c main.cpp -o main.o
+g++ engine.o main.o -o car_simulator
+./car_simulator
+
+
+Project is about a car and simulating how a car works and how the engine works on a fundamental level.
